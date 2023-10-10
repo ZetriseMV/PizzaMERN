@@ -1,0 +1,25 @@
+.images-slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+    image-rendering: -webkit-optimize-contrast;
+    z-index:999999;
+    margin-top:30px;
+    border:3px solid black;
+}
+
+.slider-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-main h3,p{
+    user-select: none;
+}
+.carousel .carousel-item {
+    transition: transform 1s ease-in-out;
+}
+.carousel .carousel-item img {
+    object-fit: cover;
+}

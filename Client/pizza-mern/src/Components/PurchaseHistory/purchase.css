@@ -1,0 +1,11 @@
+.history_header{
+    margin-top:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-history_q2{
+    display:flex;
+    justify-content: space-between;
+}

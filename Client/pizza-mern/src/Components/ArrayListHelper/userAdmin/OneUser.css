@@ -1,0 +1,35 @@
+.main-user{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}/*  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+.btn-text{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-text button{
+    margin-bottom:25px;
+    border:none;
+    outline:none;
+    background-color: #fff;
+    font-size:26px;
+    font-weight: 600;
+    color:red;
+}
+.btn-text p{
+    font-family: Ubuntu,sans-serif;
+    font-size:20px;
+}
+.main-user p{
+    font-family: Ubuntu,sans-serif;
+    font-size:20px;
+}
+.user{
+    border:2px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top:40px;
+    padding:20px;
+    margin-left:20px;
+}

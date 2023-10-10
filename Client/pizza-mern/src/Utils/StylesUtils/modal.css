@@ -1,0 +1,136 @@
+ 
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-open {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+}
+
+.modal-main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  height:420px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.modal-main.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-main.close {
+  opacity: 0;
+  visibility: hidden;
+}
+.btn-group{
+  display:flex;
+  align-items: center;
+}
+.reg-link{
+  display:flex;
+  align-items: center;
+  margin-top:30px;
+  margin-left:20px;
+}
+.btn-group button{
+  text-align: center;
+}
+.modal-body {
+  padding: 20px;
+  height: 280px;
+}
+
+.btn-close {
+  position: absolute;
+  background-color: gray;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background:none;
+}
+
+.modal-body h2 {
+  margin-top: 10px;
+  margin-left:20px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+.modal-body form {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-overlay.open {
+   opacity:1;
+   visibility: visible;
+}
+
+.modal-overlay.close {
+   opacity:0;
+   visibility:hidden; 
+}
+
+.modal-overlay .modal-main {
+   filter: blur(0);
+}
+
+.modal-overlay.close .modal-main {
+   filter: blur(5px);
+}
+
+.modal-body form {
+   display:flex;
+   flex-direction: column; 
+}
+
+.modal-body label {
+   margin-top:10px; 
+}
+
+.modal-body input {
+  font-family:Ubuntu,sans-serif;
+  font-weight: bold;
+  font-size:16px;
+  width: 400px;
+  height: 40px;
+   padding:5px; 
+   border-radius:5px; 
+   margin-top:10px;
+}
+
+.modal-body button {
+   width: 200px;
+   height: 40px;
+   margin-top:20px;
+   padding:10px 20px; 
+   border:none; 
+   border-radius:5px; 
+   background-color:#0079ae; 
+   color:white; 
+   cursor:pointer;
+}
+ 

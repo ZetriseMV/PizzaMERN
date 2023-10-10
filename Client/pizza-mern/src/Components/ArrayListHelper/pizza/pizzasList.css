@@ -1,0 +1,18 @@
+
+.main-pizza{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.link-pizza_id{
+    cursor: pointer;
+    color:black;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.link-pizza_id:hover{
+    color:black;
+    transform: scale(1.01);
+}

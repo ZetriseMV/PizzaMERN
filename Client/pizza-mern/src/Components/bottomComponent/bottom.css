@@ -1,0 +1,23 @@
+.Main-bottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu{
+    display:flex;
+}
+.footer-menu ul{
+    list-style-type:none ;
+    display:flex;
+    margin-top:40px;
+}
+.footer-bottom{
+    text-decoration: none;
+    color:black;
+    font-size:22px;
+    font-family: Ubuntu,sans-serif;
+
+}
+.footer-bottom:hover{
+    text-decoration: underline;
+}

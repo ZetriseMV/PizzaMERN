@@ -1,0 +1,13 @@
+/* app.use(express.static('/uploads'))
+const storage = multer.diskStorage({
+    destination: './uploads',
+    filename: (req, file, cb) => { 
+        const ext = path.extname(file.originalname);
+        cb(null, file.fieldname + '-' + Date.now() + ext);
+    },
+})
+const upload = multer({ storage  }) */
+
+/* upload.single('imagepizzaUrl'), */
+
+const imageUrl = req.file ? `/uploads/${req.file.filename}` : null;

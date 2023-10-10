@@ -1,0 +1,128 @@
+.Header{
+    display:flex;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+.top-align span{
+    margin-bottom:5px;
+    color: #00537a;
+}
+#home {
+    cursor: pointer;
+}
+.moreAlign{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:12px;
+}
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search button{
+    width: 110px;
+    height: 36px;
+    color:white;
+    background-color: #0079ae;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    font-size:14px;
+    line-height:16px;
+    cursor: pointer;
+    transition: .3s linear,.3s linear;
+    margin-left:10px;
+    margin-bottom: 0;
+}
+.search button:hover{
+    opacity: .8;
+}
+.search input{
+    width: 180px;
+    height: 30px;
+    margin-left:20px;
+    font-family:Ubuntu,sans-serif;
+}
+.link{
+    font-family: Ubuntu,sans-serif;
+    color:#a6a1a6;
+    margin: 0;
+}
+.linkMoney {
+    text-decoration: none;
+} 
+.top-align h2{
+    color: #00537a;
+    font-family: Ubuntu,sans-serif;
+    margin: 0;
+}
+.top-align h3{
+    color:#00537a;
+}
+.top-align{
+    min-width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.tog input {
+    width: 180px;
+    height: 35px;
+    margin-right:30px;
+}
+.tog{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:30px;
+}
+.tog p{
+    margin-top: 15px;
+    font-size:22px;
+    font-weight: 600;
+}
+.linkhistory{
+    color:#00537a;
+    text-decoration: none;
+}
+.tog span {
+    margin-top:3px;
+    font-size:23px;
+    font-weight:bold;
+    margin-right:3px;
+}
+.btnLogin{
+    text-align: center;
+    width: 110px;
+    height: 36px;
+    padding:10px;
+    color:white;
+    background-color: #0079ae;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    font-size:14px;
+    line-height:16px;
+    cursor: pointer;
+    font-size:16px;
+    font-weight: 500;
+    transition: .3s linear,.3s linear;
+    margin-left:30px;
+}
+.btnLogin:hover{
+    opacity: .8;
+}
+li{
+    color:#00537a;
+}
+.linkMain{
+    color: #00537a;
+    font-family: Ubuntu,sans-serif;
+    text-decoration: none;
+    font-size:24px;
+    font-weight: bold;
+}

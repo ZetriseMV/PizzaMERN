@@ -1,0 +1,33 @@
+.admin-menu {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    transition: transform 0.3s;
+    z-index: 1000;
+    position: fixed;
+}
+  
+.admin-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.admin-menu li {
+    float: left;
+    color:white;
+    transition: transform 0.3s;
+}
+  
+.admin-menu .link-admin {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+

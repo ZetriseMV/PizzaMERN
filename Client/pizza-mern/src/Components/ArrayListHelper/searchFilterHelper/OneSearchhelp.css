@@ -1,0 +1,54 @@
+.pizza-search{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    border-radius:15px;
+    z-index: 100000;
+    right:140px;
+}
+.main_pizza-search{
+    display:flex;
+    align-items: center;
+    background-color: #fff;
+    padding:20px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    width: 500px;
+    border:2px solid black;
+}
+.image-search_pizza img{
+    width: 100px;
+    height: 100px;
+    padding:10px;
+}
+.Text-search_pizza{
+    display:flex;
+    flex-direction: column;
+    width: 280px;
+}
+.name-pizza_search p{
+    font-size:15px;
+    font-family: "Montserrat", sans-serif;
+    margin-left:15px;
+}
+.characteristics_pizza-search p{
+    font-size:15px;
+    font-family: "Montserrat", sans-serif;
+    margin-left:15px;
+}
+.price-search-pizza p{
+    margin-left:15px;
+    margin-right:20px;
+    margin-top:20px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.btnTobuy-search button{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}

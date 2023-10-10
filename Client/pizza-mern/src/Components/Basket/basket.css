@@ -1,0 +1,101 @@
+.basket-main{
+    background-color: #f7fcff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-basket{
+    font-family: "Montserrat", sans-serif;
+    margin-top:40px;
+}
+.header-basket{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding:15px;
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+}
+.total-price{
+    margin-right:40px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size:20px;
+}
+.quantity-basket{
+   display:flex;
+   flex-direction: column;
+   margin-left:10px;
+   margin-right:15px;
+}
+.quantity-basket button{
+    width: 40px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:1px solid black;
+    outline: none;
+    font-weight:bold;
+    margin-bottom:10px;
+    border-radius:5px ;
+}
+.images-basket img{
+    border-radius: 10px;
+    border:3px solid black;
+    width: 150px;
+    height: 150px;
+}
+.descriptions-basket{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 350px;
+    font-family: "Montserrat", sans-serif;
+    font-size:17px;
+    margin-left:20px;
+}
+.btn-buyBasket{
+    display:flex;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.btn-buyBasket p{
+    margin-top:20px;
+    margin-left:20px;
+    font-weight: bold;
+    font-size:18px;
+    font-family:"Montserrat", sans-serif;
+}
+.amout-goods{
+    font-family: "Montserrat", sans-serif;
+    margin-left:5px;
+    margin-right:10px;
+    font-weight: 600;
+}
+.amout-goods p{
+    font-size:18px;
+}
+.btn-buyBasket button{
+    border:none;
+    outline:none;
+    width: 180px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    border-radius:10px;
+    background-color:#00537a;
+    color:#fff;
+    transition: .3s linear,.3s linear;
+}
+.btn-buyBasket button:hover{
+    transform:rotateY(10px);
+    opacity:.3 white;
+}

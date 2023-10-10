@@ -1,0 +1,36 @@
+.background-adm{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7fcff;
+    padding-top:150px;
+    padding-bottom:150px;
+}
+.form-add{
+    display: flex;
+    flex-direction: column;
+    max-width:400px;
+}
+.form-add h2{
+    margin-bottom: 30px;
+}
+.label-adm label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.inp-adm {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+}
+.load-file_adm input{
+    display:none;
+}
+.load-file_adm input + .label-adm{
+    display: inline-block;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
